@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(48, 46, 46);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+
+}
+
+.col{
+    border: 2px solid rgb(255, 255, 255);
+    min-height: 10rem;
+    min-width: 5rem;
+}
+
+.col:hover{
+    background-color: rgb(29, 28, 28);
+    color: rgb(48, 46, 46);
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+}

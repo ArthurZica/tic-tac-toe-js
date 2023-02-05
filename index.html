@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Jogo da Velha</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center" style="margin-top: 5vh;">
+        <h1>Jogo da velha</h1>
+        <input type="text" placeholder="jogador 1" id="jogador1" name="jogador1">
+        <input type="text" placeholder="jogador 2" id="jogador2" name="jogador2">
+        <input type="button" class="btn btn-primary" value="Iniciar" onclick="start();">
+        <input type="button" class="btn btn-primary" value="Limpar" onclick="clean();">
+        <h2 id="jogadorTurno"></h2>
+        <div class="row row-cols-6 gx-0 justify-content-center">
+            <div class="col py-2" id="11">
+              <p></p>
+            </div>
+            <div class="col py-2" id="12">
+              <p></p>
+            </div>
+            <div class="col py-2" id="13">
+              <p></p>
+            </div>
+        </div>
+        <div class="row row-cols-6 gx-0 justify-content-center">
+            <div class="col py-2" id="21">
+              <p></p>
+            </div>
+            <div class="col py-2" id="22">
+              <p></p>
+            </div>
+            <div class="col py-2" id="23">
+              <p></p>
+            </div>
+        </div>
+        <div class="row row-cols-6 gx-0 justify-content-center">
+            <div class="col py-2" id="31">
+              <p></p>
+            </div>
+            <div class="col py-2" id="32">
+              <p></p>
+            </div>
+            <div class="col py-2" id="33">
+              <p></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
